@@ -27,13 +27,13 @@ while True:
 
     # afficher les resultats 
     Write.Print(f"---------------------------------\n", Colors.red_to_green, interval=0.0005)
-    Write.Print(f"IP             : + info['query'], Colors.red_to_green, interval=0.04")
-    Write.Print(f"\nCountry      :" + info['country'], Colors.red_to_green, interval=0.04)
-    Write.Print(f"\nCode Country :" + info['countryCode'], Colors.red_to_green, interval=0.04)
-    Write.Print(f"\nRegion       :" + info['region'],  Colors.red_to_green, interval=0.04)
-    Write.Print(f"\nNom de region:" + info['regionName'], Colors.red_to_green, interval=0.04)
-    Write.Print(f"\nVille        :" + info['city'], Colors.red_to_green, interval=0.04)
-    Write.Print(f"\nCode postale :" + info['zip'], Colors.red_to_green, interval=0.04)
-    Write.Print(f"\nZone :" + info['timezone'], Colors.red_to_green, interval=0.04)
-    Write.Print(f"\nOperateur wifi :" + info['isp'], Colors.red_to_green, interval=0.04)
+    Write.Print(f"IP                : + info['query'], Colors.red_to_green, interval=0.04")
+    Write.Print(f"\nCountry         :" + info['country'], Colors.red_to_green, interval=0.04)
+    Write.Print(f"\nCode Country    :" + info['countryCode'], Colors.red_to_green, interval=0.04)
+    Write.Print(f"\nRegion          :" + info['region'],  Colors.red_to_green, interval=0.04)
+    Write.Print(f"\nNom de region   :" + info['regionName'], Colors.red_to_green, interval=0.04)
+    Write.Print(f"\nVille           :" + info['city'], Colors.red_to_green, interval=0.04)
+    Write.Print(f"\nCode postale    :" + info['zip'], Colors.red_to_green, interval=0.04)
+    Write.Print(f"\nZone            :" + info['timezone'], Colors.red_to_green, interval=0.04)
+    Write.Print(f"\nOperateur wifi  :" + info['isp'], Colors.red_to_green, interval=0.04)
     break
