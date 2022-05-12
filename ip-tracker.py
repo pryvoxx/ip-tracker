@@ -27,7 +27,7 @@ while True:
 
     # afficher les resultats 
     Write.Print(f"---------------------------------\n", Colors.red_to_green, interval=0.0005)
-    Write.Print(f"IP                : + info['query'], Colors.red_to_green, interval=0.04")
+    Write.Print(f"IP                :" + info['query'], Colors.red_to_green, interval=0.04)
     Write.Print(f"\nCountry         :" + info['country'], Colors.red_to_green, interval=0.04)
     Write.Print(f"\nCode Country    :" + info['countryCode'], Colors.red_to_green, interval=0.04)
     Write.Print(f"\nRegion          :" + info['region'],  Colors.red_to_green, interval=0.04)
