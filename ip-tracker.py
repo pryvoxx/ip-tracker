@@ -8,6 +8,11 @@ import urllib.request as urllib2
 from pystyle import Box, Colors, Colorate, Write 
 
 # clear le terminal 
+print("INSTALLATION DES MODULES")
+os.system('pip install pystyle')
+os.system('pip install json')
+os.system('pip install urllib')
+
 os.system('cls')
 print(Colorate.Horizontal(Colors.yellow_to_red, """
 ████████ ██████   █████   ██████ ██   ██       ██ ██████  
